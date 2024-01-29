@@ -1,28 +1,3 @@
-import tkinter as tk
-from tkinter import StringVar, OptionMenu
-
-def on_dropdown_change(*args):
-    selected_option = variable.get()
-    print(f"Selected option: {selected_option}")
-    
-def drop_down(win):
-    OPTIONS = ["BIOCHEMISTRY", "COMPUTER SCIENCE", "CHEMISTRY"]
-
-    variable = StringVar(win)
-    variable.set(OPTIONS[0]) # default value
-    variable.trace("w", on_dropdown_change)
-
-    w = OptionMenu(win, variable, *OPTIONS)
-    w.place(x = 100, y = 100)
-
-    win.mainloop()
-def create_window():
-    window = tk.Tk()
-    window.title('Better Arches Augustana')
-    window.geometry('500x500')
-    window.configure(bg="white")
-    
-    return window
 def main():
     #open file
     #window = create_window()
