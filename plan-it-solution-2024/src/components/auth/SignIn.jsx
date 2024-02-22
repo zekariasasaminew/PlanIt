@@ -1,6 +1,9 @@
+import './Signin.css';
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
 import React, { useState } from 'react';
+
 //import { auth } from '../../firebase';
+
 
 const SignIn = () => {
     const [email, setEmail] = useState('');
@@ -18,7 +21,11 @@ const SignIn = () => {
     }
     
     return (
-        <div className='sign-in-container'>
+        
+        <div className='signin-container'>
+            <div class="logo">
+        <img src="/Users/hildanateklegiorgis/PlanIt/plan-it-solution-2024/public/logo.png"></img>
+      
             <form onSubmit={signIn}>
                 <h1>Log In</h1>
                 <input
@@ -36,6 +43,8 @@ const SignIn = () => {
                 <button type="submit">Log In</button>
             </form>
         </div>
+        </div>
+        
     )
 }
 

@@ -1,0 +1,54 @@
+/* Signin.css */
+body,html{
+    margin: 0;
+    padding:0;
+
+    height: 100%;
+    float: right;
+}
+.background{
+    display: flex;
+    height: 100vh;
+}
+.img{
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    flex:60%;
+}
+.logo{
+    position: static;
+  
+ } 
+ .logo img{
+    
+    margin-top:  10px;
+   
+ }
+.signin-container{
+    display: flex;
+    background-color: #b9e58c;
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 0;
+   
+    
+} 
+.signin-container input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+    width: 70%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    margin-right: 20px; /* Adjust the margin for more rightward positioning */
+}
+
+
+
+  
+
+
+
