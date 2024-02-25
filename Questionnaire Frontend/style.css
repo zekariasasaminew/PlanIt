@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #007BFF; /* Academic Blue */
+    --primary-color: #b9e58c; /* Academic Blue */
     --secondary-color: #28a745; /* Academic Green */
     --accent-color: #ffc107; /* Academic Yellow */
 }
@@ -11,13 +11,71 @@ body {
     box-sizing: border-box;
     background-color: #000; /* Black background */
     color: #fff; /* White text color */
+    font-size: 16px; /* Adjust the base font size */
 }
 
 h1 {
     text-align: center;
     font-size: 2.5em; 
-    color: #1EDED8; 
+    color: #b9e58c; 
     letter-spacing: 2px;  
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--primary-color);
+    box-shadow: 0 2px 4px #b9e58c;
+}
+
+#logo {
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    align-items: center;
+}
+
+#sidemenu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#sidemenu li {
+    margin-left: 20px;
+}
+
+#sidemenu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out;
+}
+
+#sidemenu a:hover {
+    color: var(--accent-color);
+}
+
+.fa-xmark {
+    font-size: 1.5em;
+    color: #fff;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.fa-xmark:hover {
+    color: var(--accent-color);
 }
 
 p {
@@ -28,58 +86,40 @@ p {
     text-align-last: left; /* Ensure the last line is aligned to the left */
 }
 
-
-
 .input-container {
     margin: 20px auto;
-    max-width: 400px;
+    max-width: 500px; /* Increase max-width for better spacing */
 }
 
 label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px; /* Adjust margin for better spacing */
     font-weight: bold;
     color: var(--primary-color);
 }
 
-input {
+input, select {
     width: 100%;
-    padding: 10px;
+    padding: 12px; /* Increase padding for better spacing */
     box-sizing: border-box;
-    margin-bottom: 15px;
+    margin-bottom: 20px; /* Adjust margin for better spacing */
     border: 1px solid var(--secondary-color);
-    border-radius: 5px;
+    border-radius: 8px; /* Increase border-radius for rounded corners */
     color: #000; /* Black text color */
     background-color: #fff; /* White background */
 }
 
-input:focus {
+input:focus, select:focus {
     outline: none;
     border-color: var(--primary-color);
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-}
-
-#numClasses {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    margin-bottom: 15px;
-    border: 1px solid var(--secondary-color);
-    border-radius: 5px;
-    color: #000; /* Black text color */
-    background-color: #fff; /* White background */
-}
-
-#numClasses:focus {
-    outline: none;
-    border-color: var(--primary-color);
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    box-shadow: 0 0 8px #b9e58c;
 }
 
 #advisor-image {
-    max-width: 25%;
+    max-width: 50%;
     height: auto;
-    margin-left: 40%;
+    display: block;
+    margin: 20px auto; /* Center the image with margin */
     border-radius: 12px;
     transition: transform 0.3s ease-in-out;
 }
