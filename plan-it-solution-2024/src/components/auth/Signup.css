@@ -6,7 +6,8 @@ body{
     display: flex;
     align-items: center;
     justify-content:center;
-    background-image: url('./cg.jpg');
+    background-image: url('/Users/hildanateklegiorgis/PlanIt/plan-it-solution-2024/public/cg.jpg'); 
+    
     margin-left: 0
   }
  

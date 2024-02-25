@@ -1,16 +1,19 @@
 import './Signup.css';
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import React, { useState } from 'react';
-//import { auth } from '../../firebase';
+import { auth } from '../../firebase';
 import './Signup.css';
 
+
+
 const SignUp = () => {
+    const auth = getAuth();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
     const signUp = (e) => {
-        const auth = getAuth();
         e.preventDefault();
+        const auth = getAuth();
         createUserWithEmailAndPassword(auth, email, password)
         .then((useCredenial) => {
            console.log(useCredenial)
@@ -18,6 +21,7 @@ const SignUp = () => {
             console.log(error)
         })
     }
+
     
     return (
         
