@@ -21,25 +21,23 @@ h1 {
     letter-spacing: 2px;  
 }
 
-header {
+.header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
     padding: 20px;
     background-color: var(--primary-color);
     box-shadow: 0 2px 4px #b9e58c;
 }
 
-#logo {
-    color: #fff;
-    font-size: 1.5em;
-    text-decoration: none;
-    font-weight: bold;
+#logo-image {
+    max-width: 15%;
+    flex-shrink: 0; /* Prevent logo from shrinking to fit available space */
+    margin-right: 800px;
 }
-
 /* Navigation styles */
 nav {
-    display: flex;
+    /* display: flex; */
     align-items: center;
 }
 
