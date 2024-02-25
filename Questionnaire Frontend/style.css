@@ -127,3 +127,19 @@ input:focus, select:focus {
 #advisor-image:hover {
     transform: scale(1.1);
 }
+
+.btn.btn2{
+    display: block;
+    background-color: #b9e58c;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #b9e58c;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+}
+.btn.btn2:hover{
+    background: #ffc107;
+}
