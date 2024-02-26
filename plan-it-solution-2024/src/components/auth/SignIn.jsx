@@ -1,7 +1,11 @@
 import './Signin.css';
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
 import React, { useState } from 'react';
+<<<<<<< HEAD
 import MyLogo from "./logo.png";
+=======
+import MyLogo from './logo.png';
+>>>>>>> 7377a071298803957ebb87afa42ba9a22fbe4617
 
 //import { auth } from '../../firebase';
 
@@ -24,9 +28,16 @@ const SignIn = () => {
     return (
         
         <div className='signin-container'>
+<<<<<<< HEAD
             <div class="logo">
             <img src={MyLogo}></img>
       
+=======
+            <div>
+                <div className = 'logoimg'>
+            <img  src={MyLogo}></img>
+            </div>
+>>>>>>> 7377a071298803957ebb87afa42ba9a22fbe4617
             <form onSubmit={signIn}>
                 <h1>Log In</h1>
                 <input

@@ -15,6 +15,7 @@ body{
   .background {
     display: flex;
     height: 100vh;
+    flex:60%;
   }
  
  
