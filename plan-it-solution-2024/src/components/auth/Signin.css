@@ -15,20 +15,7 @@ body,html{
 width:60%;
 margin-top:40px;  
 }
-<<<<<<< HEAD
-.logo{
-    position: static;
-    width: 80%;
-  
- } 
- .logo img{
-    
-    margin-top:  10px;
-   
- }
-=======
  
->>>>>>> 7377a071298803957ebb87afa42ba9a22fbe4617
 .signin-container{
     display: flex;
     background-color: #b9e58c;
