@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <SignIn />
       <SignUp />
-      <AuthDetails />
+      {/* <AuthDetails /> */}
     </div>
   );
 }

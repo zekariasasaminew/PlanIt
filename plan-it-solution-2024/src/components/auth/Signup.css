@@ -6,7 +6,7 @@ body{
     display: flex;
     align-items: center;
     justify-content:center;
-    background-image: url('/Users/hildanateklegiorgis/PlanIt/plan-it-solution-2024/public/cg.jpg'); 
+    background-image: url('./cg.jpg'); 
     
     margin-left: 0
   }
@@ -25,7 +25,6 @@ body{
     padding: 10px;
     text-align: center;
     margin-top: 0;
-
 } 
 .sign-in-container input {
     padding: 5px 10px;
@@ -60,7 +59,5 @@ button:hover {
     padding: 5px 10px;
     border: none;
     border-radius: 20px;
-
-  
 }
   

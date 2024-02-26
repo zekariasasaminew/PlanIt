@@ -18,9 +18,10 @@ body,html{
 }
 .logo{
     position: static;
+    width: 80%;
   
  } 
- .logo img{s
+ .logo img{
     
     margin-top:  10px;
    
