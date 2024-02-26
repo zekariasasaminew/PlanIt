@@ -6,7 +6,7 @@ body{
     display: flex;
     align-items: center;
     justify-content:center;
-    background-image: url('/Users/hildanateklegiorgis/PlanIt/plan-it-solution-2024/public/cg.jpg'); 
+    background-image: url('./cg.jpg'); 
     
     margin-left: 0
   }
@@ -15,6 +15,7 @@ body{
   .background {
     display: flex;
     height: 100vh;
+    flex:60%;
   }
  
  
